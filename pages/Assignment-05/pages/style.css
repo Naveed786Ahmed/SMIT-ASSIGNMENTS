@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, .1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: .9rem;
+}
+
+.logo {
+    width: 148px;
+    height: 30px;
+    background-image: url("../images/logo.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 16px;
+    bottom: 5px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+.content{
+    width: 100%;
+    position: relative;
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/Galaxy37_outsidesouthtwr_IMG_3067_desktop_7795e60faa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    position: absolute;
+    top: 0px;
+}
+
+.box1-text{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: white;
+    font-size: 1.3rem;
+    position: relative;
+}
+.box-text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.box-text button{
+    margin-top: 30px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.box2{
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/Jup3_Echo24_outsidebeachh_IMG_0087_desktop_8f619083ab.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    position: absolute;
+    top: 700px;
+}
+
+.box3{
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/Star6_7_072823_DSC_8788_desktop_f41c7463de.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    position: absolute;
+    top: 1400px;
+}
+
+.box4{
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    position: absolute;
+    top: 2100px;
+}
+
+.footer-text{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: .8rem;
+    position: absolute;
+    top: 2800px;   
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: white;
+}
