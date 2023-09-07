@@ -1,0 +1,653 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #0025ff;
+    display: flex;
+    justify-content: center;
+}
+
+.head-cont {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head-logo-item {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 11%;
+    height: 70%;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+}
+@-webkit-keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+.logo:hover{
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-duration: calc(var(--animate-duration)*1.3);
+    animation-duration: calc(var(--animate-duration)*1.3);
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.list-items {
+    width: 85%;
+    color: white;
+    font-weight: bold;
+}
+
+.list-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-items ul {
+    display: flex;
+
+}
+
+.list-items li {
+    margin-left: 50px;
+    list-style-type: none;
+
+}
+
+.head-button {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.product-button {
+    width: 35%;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero-video {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto;
+}
+
+.main-content-text {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    padding: 50px 25px;
+
+}
+
+.main-content-text h1 {
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+
+}
+
+.main-content-text h2 {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.follow-along-button {
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 40%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70PX;
+    text-align: center;
+    color: white;
+    background-color: #0025ff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.multi-image {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 1230px;
+    background-image: url("../images/1.png");
+    background-size: cover;
+}
+
+.main-content-text2 {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    padding: 40px 25px;
+    position: absolute;
+    top: 2020px;
+}
+
+.main-content-text2 h1 {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+.main-content-text2 h3 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+.main-content-text2 h2 {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.blue {
+    color: #0025ff;
+}
+
+.hero2 {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 2320px;
+    background-image: url("../images/2.png");
+    background-size: cover;
+}
+
+.main-content-text3 {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 3220px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+.hero-video1 {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 3370px;
+}
+
+.hero-video1 video {
+    width: 100%;
+    height: auto;
+
+}
+
+.Apple-Music {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 4208px;
+}
+.Apple-Music-img{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/4.PNG");
+    background-size: cover;
+}
+.stay-on-the-pulse{
+    width: 100%;
+    height: 370px;
+    background-color: black;
+    position: absolute;
+    top: 4808px;
+    padding: 20px 90px;
+}
+.stay-on-the-pulse-text{
+    width: 100%;
+    height: 80px;
+}
+.stay-on-the-pulse-text h1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #0025ff;
+    text-align: center;
+}
+.icon-img{
+    width: 100%;
+    height: 230px;
+    border: 3px solid #0025ff;
+    display: flex;
+}
+.icon1{
+    width: 17%;
+    height: auto;
+    background-image: url("../images/66.png");
+    background-size: cover;
+    position: relative;
+}
+.icon2{
+    width: 17%;
+    height: auto;
+    background-image: url("../images/66.png");
+    background-size: cover;
+    position: relative;
+}
+.icon3{
+    width: 17%;
+    height: auto;
+    background-image: url("../images/66.png");
+    background-size: cover;
+    position: relative;
+}
+.icon4{
+    width: 17%;
+    height: auto;
+    background-image: url("../images/66.png");
+    background-size: cover;
+    position: relative;
+}
+.icon5{
+    width: 17%;
+    height: auto;
+    background-image: url("../images/66.png");
+    background-size: cover;
+    position: relative;
+
+}
+.icon6{
+    width: 17%;
+    height: auto;
+    background-image: url("../images/66.png");
+    background-size: cover;
+    position: relative;
+}
+.img2{
+    background-image: url("../images/55.png");
+}
+.img3{
+    background-image: url("../images/44.png");
+}
+.img4{
+    background-image: url("../images/33.png");
+}
+.img5{
+    background-image: url("../images/22.png");
+}
+.img6{
+    background-image: url("../images/11png.png");
+}
+@-webkit-keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+.icon-imges:hover{
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-duration: calc(var(--animate-duration)*0.75);
+    animation-duration: calc(var(--animate-duration)*0.75);
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+.icon1 i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.icon2 i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.icon3 i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.icon4 i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.icon5 i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.icon6 i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0025ff;
+    position: absolute;
+    top: 5170px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-content{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-logo{
+    width: 23%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img{
+    width: 62%;
+    height: 95%;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+}
+@-webkit-keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+.footer-img:hover{
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-duration: calc(var(--animate-duration)*1.3);
+    animation-duration: calc(var(--animate-duration)*1.3);
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.footer-content ul{
+    width: 23%;
+    height: 75%;
+    padding: 20px;
+    padding-top: 35px;
+    color: white;
+    font-weight: bolder;
+    line-height: 25px;
+    cursor: pointer;    
+}
+.footer-icons{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.ficons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ficons i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
