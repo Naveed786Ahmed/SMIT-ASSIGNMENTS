@@ -1,2 +1,2 @@
 # HTML & CSS Assignments
-https://pepsi-website-smit.netlify.app/
+https://comforting-dango-98deb5.netlify.app/
