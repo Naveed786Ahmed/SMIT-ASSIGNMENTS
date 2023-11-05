@@ -1,2 +1,2 @@
 # HTML & CSS Assignments
-https://comforting-dango-98deb5.netlify.app/
+https://unrivaled-ganache-82100a.netlify.app/
