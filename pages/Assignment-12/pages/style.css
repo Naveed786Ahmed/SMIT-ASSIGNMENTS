@@ -356,3 +356,34 @@ input{
     list-style: none;
     font-weight: 200;
 }
+.contact-us{
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-in-touch{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+
+}
+.get-in-touch h3{
+    font-size: 22px;
+    text-align: center;
+
+}
+.get-in-touch h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+    color: #333333;
+    text-align: center;
+}
+.get-in-touch p{
+    font-size: 24px;
+    color: #555555;
+}
